@@ -4,5 +4,7 @@ let emails = customers.map(element => {
     })
 }
 )
+let empty = []
+let array = empty.concat.apply(empty, emails)
 
-console.log(emails)
+console.log(array)
